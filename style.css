@@ -1,0 +1,11 @@
+body {
+	margin: 1em;
+}
+
+.body {
+	display: flex;
+}
+
+.body > div {
+	margin: 1em;
+}
