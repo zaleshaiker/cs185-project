@@ -49,6 +49,47 @@
 	font-size: 55px;
 }
 
+.project-container {
+	display: flex;
+	margin: 3em;
+	margin-bottom: 5em;
+}
+
+.project-container > img {
+	width: 300px;
+	height: auto;
+}
+
+.project-container > div {
+	margin-left: 3em;
+}
+
+.project-container > div > p {
+	font-size: large;
+}
+
+.pictures {
+	margin: 3em;
+}
+
+.picture {
+	height: 300px;
+	width: auto;
+	object-fit: cover;
+	margin: 0.5em;
+}
+
+.videos {
+	margin: 3em;
+}
+
+.videos {
+	height: 300px;
+	width: auto;
+	object-fit: cover;
+	margin: 0.5em;
+}
+
 .footer {
 	display: flex;
 	justify-content: space-between;
