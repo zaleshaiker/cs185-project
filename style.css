@@ -1,11 +1,63 @@
-body {
+@font-face {
+	font-family: "ABeeZee";
+	src: url("fonts/ABeeZee-Regular.ttf");
+}
+
+.page-container {
+	font-family: ABeeZee, Arial;
 	margin: 1em;
+	position: relative;
+	min-height: 96vh;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 3em;
+}
+
+.home {
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
+}
+
+.menu {
+	display: flex;
+	margin-right: 3em;
+}
+
+.link-text {
+	float: right;
+	margin: 1em;
+	text-decoration: none;
+	color: black;
 }
 
 .body {
 	display: flex;
+	padding-bottom: 2.5rem;
 }
 
 .body > div {
 	margin: 1em;
+	margin-top: 10em;
+	margin-left: 3em;
+}
+
+.home-body {
+	font-size: 55px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 0;
+	width: 96%;
+	height: 2.5rem;
+}
+
+.footer-menu {
+	display: flex;
 }
