@@ -86,22 +86,40 @@
 	height: auto;
 }
 
-.pictures {
+.images {
 	margin: 3em;
 }
 
-.picture {
+.image {
 	height: 300px;
 	width: auto;
 	object-fit: cover;
 	margin: 0.5em;
+	cursor: pointer;
+}
+
+.back-to-top {
+	display: none;
+	position: fixed;
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+}
+
+.back-to-top > img {
+	width: 64px;
+	height: auto;
+}
+
+.back-to-top:hover > img {
+	filter: invert(95%);
 }
 
 .videos {
 	margin: 3em;
 }
 
-.videos {
+.video {
 	object-fit: cover;
 	margin: 0.5em;
 }
