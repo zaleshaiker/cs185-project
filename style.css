@@ -3,14 +3,14 @@
 	src: url("fonts/ABeeZee-Regular.ttf");
 }
 
-.page-container {
+#page-container {
 	font-family: ABeeZee, Arial;
 	margin: 1em;
 	position: relative;
 	min-height: 96vh;
 }
 
-.header {
+#header {
 	display: flex;
 	justify-content: space-between;
 	margin-left: 3em;
@@ -42,11 +42,11 @@
 	color: black;
 }
 
-.body {
+#body {
 	display: flex;
 }
 
-.body > div {
+#body > div {
 	margin-left: 10em;
 }
 
@@ -106,7 +106,7 @@
 	margin: 0.5em;
 }
 
-.footer {
+#footer {
 	display: flex;
 	justify-content: space-between;
 	position: absolute;
