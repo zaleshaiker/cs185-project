@@ -3,7 +3,8 @@
 [Link](https://zaleshaiker.github.io/cs185-project/) to the website
 
 ---
-To test locally, make sure you you have http-server installed from npm
+## Test locally
+Make sure you you have http-server installed from npm
 ```
 npm install -g http-server
 ```
